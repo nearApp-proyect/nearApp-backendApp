@@ -48,5 +48,6 @@ sonarqube {
 		property "sonar.projectKey", "nearApp-proyect_nearApp-backendapp"
 		property "sonar.organization", "nearapp-proyect"
 		property "sonar.host.url", "https://sonarcloud.io"
+		property "sonar.coverage.exclusions",['**/NearappApplication.java']
 	}
 }
